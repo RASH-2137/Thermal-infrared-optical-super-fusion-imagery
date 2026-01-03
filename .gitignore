@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Model checkpoints - NEVER commit these
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data directories
+training_data/
+data/
+demo_data/
+outputs/
+uploads/
+*.npz
+*.npy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+runs/
+preprocessing_log.txt
+logs/
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Weights and models
+weights/
+models/
+*.weights
+*.safetensors
