@@ -94,7 +94,7 @@ chmod +x start_api.sh
 ./start_api.sh
 
 
-Open in browser:
+Open in your local browser the local host site:
 
 http://localhost:8000
 
